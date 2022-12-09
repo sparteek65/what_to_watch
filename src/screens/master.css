@@ -1,0 +1,36 @@
+.ott_details{
+    position: absolute;
+    top: 358px;
+    left: 323px;
+    
+}
+
+.title{color: white;
+    font-size: 40px;
+    font-weight: bold;}
+
+.description{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    top: 470px;
+    left: 325px;
+    text-align: initial;
+}
+
+.vote{
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    top: 440px;
+    left: 325px;
+    text-align: initial;
+}
+.release{
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    top: 440px;
+    left: 390px;
+    text-align: initial;
+}
