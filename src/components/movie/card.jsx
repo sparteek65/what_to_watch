@@ -9,7 +9,7 @@ export const Card = (props) => {
     ott_id = "";
   }
 
-  let query = "/detail?ott_id=" + ott_id;
+  let query = "/what_to_watch/detail?ott_id=" + ott_id;
 
   const handle_cache = () => {
     const Data = {

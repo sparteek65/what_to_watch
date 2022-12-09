@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./static/logo.png";
 import "./App.css";
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -15,13 +15,20 @@ function App() {
       <BrowserRouter>
         <header
           className="App-header"
-          style={{ minHeight: "50px", maxHeight: "60px" }}
+          style={{
+            minHeight: "50px",
+            maxHeight: "60px",
+            display: "flex",
+            flexDirection: "row",
+          }}
         >
+          <img src={logo} width="72px" height="68px"></img>
+          &nbsp;&nbsp;&nbsp;
           <p>What to watch</p>
         </header>
         <Routes>
           <Route
-            path="/"
+            path="/what_to_watch/"
             element={
               <HomeScreen
                 currentOtt={CurrentOtt}
@@ -30,7 +37,7 @@ function App() {
             }
           />
           <Route
-            path="/detail/"
+            path="/what_to_watch/detail/"
             element={
               <DetailPage
                 currentOtt={CurrentOtt}
