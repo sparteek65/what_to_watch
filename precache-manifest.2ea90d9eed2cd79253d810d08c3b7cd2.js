@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0fe124fcca4ce46d2e74",
+    "revision": "f349729c5d5080e3e1e1",
     "url": "/what_to_watch/static/css/main.39edc711.chunk.css"
   },
   {
-    "revision": "0fe124fcca4ce46d2e74",
-    "url": "/what_to_watch/static/js/main.0fe124fc.chunk.js"
+    "revision": "f349729c5d5080e3e1e1",
+    "url": "/what_to_watch/static/js/main.f349729c.chunk.js"
   },
   {
     "revision": "e8a858b4d510172b3b18",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/what_to_watch/static/media/logo.89a85d4f.png"
   },
   {
-    "revision": "5b3ff6dd03f687b0698bf1ab532b79d5",
+    "revision": "4af0e11d05228ce75255037ea1b5fc1c",
     "url": "/what_to_watch/index.html"
   }
 ];
